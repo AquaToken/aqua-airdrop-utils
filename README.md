@@ -8,7 +8,7 @@ This repository contains scripts that allow to hold an asset distribution (airdr
 
 ### Generator module
 
-Generates a CSV file with airdrop transactions based on input parameters.
+Generates a file with airdrop transactions based on input parameters.
 
 ```
 python airdrop_script.py
@@ -24,7 +24,7 @@ python airdrop_script.py
 
 ### Signer module
 
-Signs airdrop transactions with a specified signing key and generates a CSV file with signed transactions.
+Signs airdrop transactions with a specified signing key and generates a file with signed transactions.
 
 ```
 python signer.py
