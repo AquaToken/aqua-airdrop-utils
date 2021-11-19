@@ -8,7 +8,14 @@ This repository contains scripts that allow to hold an asset distribution (airdr
 
 ### Generator module
 
-Generates a file with airdrop transactions based on input parameters.
+Generates a CSV file with airdrop transactions based on input parameters.
+
+
+Here `asset` represents a unique Stellar asset to be distributed in the airdrop campaign.
+
+`base_amount` represents the minimum reward amount in `asset` to be distributed to one eligible account. Additional reward multipliers may be applied to this amount.
+
+`accounts_list_file` is a CSV file with the list of accounts in format `GARE...WE4I, #` where # is the reward multiplier that should be applied for account. Each new account should be listed on a new line. 
 
 ```
 python airdrop_script.py

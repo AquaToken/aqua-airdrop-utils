@@ -178,7 +178,7 @@ if __name__ == "__main__":
         '--network', nargs=1, help='Stellar network: ["testnet", "public"].', required=True,
     )
     parser.add_argument(
-        '--accounts_list_file', nargs=1, help='Path to csv with account list.', required=True,
+        '--accounts_list_file', nargs=1, help='Path to a CSV file with the list of accounts', required=True,
     )
     parser.add_argument(
         '--base_amount', nargs=1, help='Base token amount a user will receive.', required=True,
