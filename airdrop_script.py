@@ -32,7 +32,7 @@ class AirdropGenerator(object):
             self.server = Server(horizon_url="https://horizon-testnet.stellar.org")
             self.network_passphrase = Network.testnet_network().network_passphrase
         elif network == 'public':
-            self.server = Server(horizon_url="https://horizon.stellar.lobstr.co/")
+            self.server = Server(horizon_url="https://horizon.stellar.org/")
             self.network_passphrase = Network.public_network().network_passphrase
 
     def _get_accounts_page(self, accounts):
